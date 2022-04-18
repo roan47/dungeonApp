@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DungeonLibrary
 {
-    public class Dragon : Monster
+    public class Satan : Monster
     {
         public bool IsScaly { get; set; }
 
-        public Dragon(string name, int life, int maxLife, int hitChance, int block, int minDamage,
+        public Satan(string name, int life, int maxLife, int hitChance, int block, int minDamage,
             int maxDamage, string description, bool isScaly)
             : base(name, life, maxLife, hitChance, block, maxDamage, minDamage, description)
         {

@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace DungeonLibrary
 {
-    public class Vampire : Monster
+    public class Cerberus : Monster
     {
         public DateTime HourChangeBack { get; set; }
 
-        public Vampire(string name, int life, int maxLife, int hitChance, int block, int minDamage,
+        public Cerberus(string name, int life, int maxLife, int hitChance, int block, int minDamage,
             int maxDamage, string description)
             : base(name, life, maxLife, hitChance, block, maxDamage, minDamage, description)
         {
             HourChangeBack = DateTime.Now;
 
-            //At night, our Vampire becomes significantly more dangerous
+            //At night, our Cerberus becomes significantly more dangerous
             if (HourChangeBack.Hour < 6 || HourChangeBack.Hour > 18)
             {
                 HitChance += 10;
