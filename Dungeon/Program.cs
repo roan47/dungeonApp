@@ -145,7 +145,7 @@ __@@@@@@@@@% @@@   @  @  %@%%%%#  #@@@@@@ *#####@ @@@ @@ @@  @@     @*  @@ @@@%*
                     break;
                 case ConsoleKey.C:
                     playerRace = Race.Ryujii;
-                    userName = "Rujii";
+                    userName = "Ryujii";
                     persona = WeaponType.Chariot;
                     restart = true;
 
